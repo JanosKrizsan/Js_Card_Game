@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CC-CG</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="static/js/cards.js"></script>
+    <script src="static/js/CCCG.js" defer></script>
+</head>
+<body>
+<div id="app">
+    <div class="row enemyCards">
+        <div class="cccg attacker" id="enemy-card-1"></div>
+        <div class="cccg attacker" id="enemy-card-2"></div>
+        <div class="cccg attacker" id="enemy-card-3"></div>
+        <div class="cccg attacker" id="enemy-card-4"></div>
+        <div class="enemyMana">∞</div>
+        <div class="playerImage">
+            <img src="https://cdn.discordapp.com/attachments/582543746680225802/583627828428275723/2019_05_30_14_05_Office_Lens.jpg">
+        </div>
+        <div id="enemy-health" data-health="50"></div>
+    </div>
+
+    <div class="row playerCards">
+        <div class="cccg defender" id="position-1"></div>
+        <div class="cccg defender" id="position-2"></div>
+        <div class="cccg defender" id="position-3"></div>
+        <div class="cccg defender" id="position-4"></div>
+        <button class="fight">PA!</button>
+    </div>
+
+    <hr class="large">
+    <div class="row inHandCards">
+        <div class="cccg" id="first-card"></div>
+        <div class="cccg" id="second-card"></div>
+        <div class="cccg" id="third-card"></div>
+        <div class="cccg" id="fourth-card"></div>
+
+        <div class="mana">∞</div>
+        <div class="playerImage">
+            <img src="https://inst-1.cdn.shockers.de/hs_cdn/out/pictures//master/product/1/16369-Superstreber_Instant_Set-Trottel_Zubehoer-Halloween_Kostuem_Zubehoer_Set-Karnevals_Kostuem-Instant_Geek.jpg">
+        </div>
+        <div id="player-health" data-health="50" data-counter="0"></div>
+    </div>
+</div>
+</body>
+</html>

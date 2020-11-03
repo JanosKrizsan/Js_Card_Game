@@ -1,0 +1,223 @@
+.cccg {
+    height: 160px;
+    width: 110px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 80px;
+
+    background-color: rgba(0, 0, 0, 0.45);
+    background-clip: border-box;
+    -webkit-box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.71);
+    /*border: 2px solid darkred;*/
+    border-radius: .5rem;
+
+    /*word-wrap: break-word;*/
+    /*position: relative;*/
+    /*display: flex;*/
+    /*max-width: 8.333333%;*/
+    /*flex-direction: column;*/
+    /*min-width: 0;*/
+}
+
+.playerImage {
+    height: 200px;
+    width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.playerImage img {
+    position: center;
+    top: -28%;
+    left: 3%;
+    height: 200px;
+    width: 200px;
+    border-radius: 70%;
+    border: 4px solid #021a40;
+    -webkit-box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.71);
+}
+
+.mana {
+    width: 150px;
+    height: 150px;
+    color: gold;
+    background-image: url("https://avatars0.githubusercontent.com/u/22430704?s=200&v=4");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 140px;
+    font-size: 80px;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px goldenrod;
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+
+.enemyMana {
+    width: 150px;
+    height: 150px;
+    color: gold;
+    background-image: url("https://avatars0.githubusercontent.com/u/22430704?s=200&v=4");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 140px;
+    font-size: 80px;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px goldenrod;
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+
+body {
+    background: url("https://cdn.discordapp.com/attachments/582543746680225802/583624228977246210/20190530_135252.jpg");
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+hr.large {
+    border: none;
+    height: 10px;
+    background-color: saddlebrown;
+    opacity: 0.3;
+}
+
+.fight {
+    position: relative;
+    left: 215px;
+    top: 50px;
+    background-color: darkred;
+    color: #FFFFFF;
+    padding: 20px;
+    height: 80px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin: 10px;
+    font-family: fantasy;
+    -webkit-box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.71);
+    font-size: 20px;
+}
+
+/* Playing Card CSS FROM HERE */
+
+.playing-card {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: .5rem;
+    width: 100px;
+    height: 150px;
+    background-image: url("https://i.imgur.com/XERMOiE.png");
+    background-size: 100px 150px;
+    text-align: center;
+}
+
+ .inHandCards .playing-card:hover {
+    color: #a81015;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.playing-card .power-number {
+    position: relative;
+    left: -40%;
+    top: 124px;
+    display: inline;
+    color: dimgray;
+}
+
+.playing-card .health-number {
+    position: relative;
+    left: 40%;
+    top: 10px;
+    display: inline;
+    color: red;
+}
+
+.playing-card .mana-number {
+    position: relative;
+    left: 1%;
+    top: -96%;
+    color: blue;
+}
+
+.playing-card img {
+    position: relative;
+    top: -28%;
+    left: 3%;
+    width: 90px;
+    height: 90px;
+}
+
+.playing-card .card-name {
+    position: relative;
+    top: -19%;
+    font-size: 8px;
+    color: red;
+}
+
+/* Playing Card CSS ENDS HERE */
+
+#player-health {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-image: url("https://i.imgur.com/Jqcu9mx.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 140px;
+    font-size: 35px;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px darkred;
+    position: relative;
+    left: 10px;
+    top: 30px;
+
+}
+
+#player-health img {
+    position: relative;
+    top: -95%;
+    width: 150px;
+    height: 150px;
+    float: top;
+}
+
+#enemy-health {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-image: url("https://i.imgur.com/Jqcu9mx.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 140px;
+    font-size: 35px;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px darkred;
+    position: relative;
+    left: 10px;
+    top: 30px;
+
+}
+
+#enemy-health img {
+    position: relative;
+    top: -95%;
+    width: 150px;
+    height: 150px;
+    float: top;
+}
+
